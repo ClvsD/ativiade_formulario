@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Atividade formulário</title>
+</head>
+<body bgcolor="#ff9966">
+
+    <h2 align="center"> Declaração de conteúdo </h2>
+    <table border="0" align="center" width="750">
+
+        <tr>
+            <form>
+
+            <td>
+                <fieldset>
+                <legend align="left"> Remetente</legend>
+                <table border="0">
+                <td>
+                
+                    <!-- DADOS REMETENTE -->
+                        <tr>
+                            <td><label for="nome">Nome:</label></td>
+                            <td><input type="text" id="nome" name="nome" size="30" 
+                            placeholder="Digite seu nome" required/></td>
+                        </tr>
+                            <tr>
+                            <td><label for="CPF/CNPJ">CPF/CNPJ:</label></td> 
+                            <td><input type="text" id="CPF/CNPJ" name="CPF/CNPJ" size="30" 
+                                placeholder="Númeração do docuento"required> </td>
+                            </tr>
+                        
+                        <tr>
+                            <td><label for="endereço">Endereço:</label></td>
+                            <td><input type="text" id="endereço_rem" name="endereço_rem" size="30" 
+                                placeholder="Endereço" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="cidade"></label>Cidade: </td>
+                            <td><input type="text" id="cidade_rem" name="cidade_rem" size="30" 
+                                placeholder="Digite a sua Cidade" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="data">Data de Envio:</label></td>
+                            <td><input type="date" id="data_env" name="data_env" size="30"></td> 
+                        </tr>
+                            
+                    
+                    <tr>
+                        <td><label>UF:</label></td>
+
+                        <td><select id="estado" name="estado"><option select="selected" required>--Selecione--</option>
+                        
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select></td>
+
+                    </tr>
+                    <tr>
+                        <td><label>CEP:</label> </td>
+                        <td><input type=text id="CEP" name="CEP" size="30" placeholder="Insira seu CEP" required></td>
+                    </tr>
+
+                </table>
+                </fieldset> 
+            </td>
+            </td>
+            <td>
+            <td>
+                <fieldset>
+                <legend align="rigth"> Destinatário</legend>
+                <table border="0" >
+                    <!-- DADOS DESTINATÁRIO -->
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome" size="30" 
+                        placeholder="Digite seu nome" required/></td>
+                    </tr>
+                        <tr>
+                            <td><label for="CPF/CNPJ">CPF/CNPJ:</label></td>
+                        <td><input type="text" id="CPF/CNPJ" name="CPF/CNPJ" 
+                            placeholder="Númeração do documento" size="30" required> </td>
+
+                        </tr>
+                        <tr>
+                            <td><label for="endereço">Endereço:</label></td>
+                            <td><input type="text" id="endereço_des" name="endereço_des" size="30"
+                            placeholder="Digite seu endereço" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="cidade"></label>Cidade: </td>
+                            <td><input type="text" id="cidade_des" name="cidade_des" size="30" 
+                                placeholder="Digite a sua Cidade" required></td>
+                        </tr>
+
+                    
+                    
+                        <td><label>UF:</label></td>
+
+                        <td><select id="estado" name="estado"><option select="selected" required>--Selecione--</option>
+                        
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>CEP:</label> </td>
+                        <td><input type=text id="CEP" name="CEP" size="30" placeholder="Insira seu CEP"></td>
+                    </tr>
+
+
+                </table>
+                
+
+
+            </fieldset>
+            
+            
+
+            </td>
+
+
+        </tr>
+        
+
+
+
+    
+            </td>
+            <tr>
+            </table>
+    <td colspan="2"> 
+
+<fieldset>
+    <legend>Declaração de Itens</legend>
+    <table border="0" cellpadding="5">
+        <tr>
+            <td><label>Nome:</label></td>
+            <td><textarea type="text" id="nome_item" name="nome_item" cols="40" rows="5" maxlength="500" size="30" 
+                placeholder="Informe o nome do produto" required></textarea></td>
+                <td>Quantidade:</td>
+                <td><input type="number"id="quantidade" name="quantidade" 
+                    placeholder="Informe a Quantidade"required></td>
+                    <td>Valor:</td>
+                    <td><input type="number"id="valor" name="valor" 
+                        placeholder="Informe o valor"required></td>
+
+        </tr>
+
+        
+        <tr>
+            <td></td>
+            <td colspan="3" align="right">
+                <button type="submit" id="send" name="send">
+                    <img src="img/mail.img" width="80" height="50" alt="send"/>
+                </button>
+            </td>
+    
+
+        </tr>
+        <tr>
+            <td>Assinatura:</td>
+            <td><input type="text" id="assinatura" name="assinatura" disabled </td>
+        </tr>
+
+    </table>
+    
+</fieldset>
+</td>
+</tr>
+</form>
+</body>
+</html>
+
